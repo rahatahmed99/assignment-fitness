@@ -505,3 +505,56 @@ background: rgba(0, 0, 0, 0.2),url(image);
 }
 
 /* my team section end here */
+
+
+/* footer section styles start here */
+
+.footer-section{
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.end-setup{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo p{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  margin-top: 20px;
+}
+
+.Get-Started h3{
+  font-size: 32px;
+font-weight: 700;
+}
+
+.Get-Started p{
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+.started h3{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.started p{
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+hr{
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.last-line{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+/* footer section styles end here */
