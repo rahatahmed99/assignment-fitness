@@ -20,8 +20,12 @@ body{
 
 .container{
   width: 85%;
-  margin: 3.5rem;
+  margin: 3.5rem auto;
   border-radius: 1rem;
+}
+
+.ham-burger{
+  display: none;
 }
 
 /* Sheared styles */
@@ -558,3 +562,87 @@ hr{
 }
 
 /* footer section styles end here */
+
+
+/* responsive section */
+
+@media screen and (max-width: 576px) {
+  .nab-options{
+    display: none;
+  }
+
+  .ham-burger{
+    display: block;
+  }
+
+  .container{
+    margin: 0 auto;
+  }
+  
+  h3{
+    font-size: 24px;
+  }
+ 
+  p{
+    font-size: 14px;
+  }
+
+  .baner-section{
+    
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .img-container{ 
+    grid-template-columns: 1fr;
+    margin-top: 3.5rem;
+  }
+
+  .cards{
+    width: 100%;
+    height: 100%;
+  }
+
+  .run-an-extra{
+    grid-template-columns: 1fr;
+    background: rgb(34, 34, 34);
+    gap: 20px;
+
+    
+  }
+
+  .bmi-container{
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+
+  .calculate{
+    background: rgb(34, 34, 34);
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+   
+  .row-1{
+    grid-template-columns: 1fr;
+  }
+
+  .row-2{
+    grid-template-columns: 1fr;
+    margin-top: 5px;
+  }
+
+  .team-content{
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   margin-bottom: 30px;
+}
+
+.end-setup{
+ 
+  grid-template-columns: 1fr;
+}
+
+}
